@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Planets.ModName>Rainbeau's Realistic Planets</Planets.ModName>
+
+  <Planets.SettingsDisabled>Como también estás usando "Control de facciones", las opciones de colocación de facciones en "Planetas realistas" se han deshabilitado para evitar conflictos.</Planets.SettingsDisabled>
+
+  <Planets.CheckTemp>Considere la temperatura al colocar facciones.</Planets.CheckTemp>
+  <Planets.CheckTempTip>Si se marca esta opción, los asentamientos de facciones tenderán a ubicarse en regiones del planeta donde la raza de la facción consideraría que la temperatura es la más cómoda (o quizás "la menos incómoda"). Si no está marcada, los asentamientos se colocarán al azar, como en el juego de vainilla.</Planets.CheckTempTip>
+
+  <Planets.FactionGrouping>"Haciendo nacion":</Planets.FactionGrouping>
+  <Planets.FactionGroupingNone>Ninguna. (Comportamiento de vainilla.) Los asentamientos de grupos de facciones se dispersarán al azar en todo el mundo.</Planets.FactionGroupingNone>
+  <Planets.FactionGroupingLoose>Suelto. Los asentamientos de un grupo de facciones tenderán a estar en la misma región general del mapa mundial, pero seguirá habiendo una gran superposición entre los territorios ocupados por varios grupos.</Planets.FactionGroupingLoose>
+  <Planets.FactionGroupingTight>Apretado. Los asentamientos que pertenecen a cualquier grupo de facciones en particular estarán razonablemente cerca uno del otro, y a excepción de los grupos de facciones de bandas piratas, no habrá una gran superposición. Habrá un sentido distintivo de las naciones reales existentes en el mapa mundial, aunque con fronteras muy irregulares.</Planets.FactionGroupingTight>
+  <Planets.FactionGroupingVeryTight>Muy ajustado. A excepción de los grupos de facciones de bandas piratas, los asentamientos de cada grupo de facciones estarán muy agrupados. No habrá mucha superposición en absoluto, pero puede haber grandes espacios "abiertos" de territorio desocupado entre ellos.</Planets.FactionGroupingVeryTight>
+
+  <Planets.MessageLowPlanetCoverageWarning>Advertencia: con una configuración de cobertura muy baja, puede que no haya suficiente tierra para todos los asentamientos de facciones que el juego intenta generar.</Planets.MessageLowPlanetCoverageWarning>
+
+  <Planets.WorldPresets>Tipo de mundo</Planets.WorldPresets>
+  <Planets.WorldPresetsTip>Las opciones preestablecidas en esta lista le permitirán ajustar rápidamente los controles deslizantes a continuación para generar tipos específicos de planetas. Los ajustes preestablecidos no son perfectos, por supuesto, y en cualquier caso, pocos planetas están cubiertos completamente por un solo bioma, pero al usarlos, debes obtener planetas caracterizados predominantemente por el tipo de entorno que esperarías del nombre.</Planets.WorldPresetsTip>
+
+  <Planets.Vanilla>RimWorld defecto</Planets.Vanilla>
+  <Planets.Desert>Planeta desierto</Planets.Desert>
+  <Planets.Frozen>Mundo ártico seco</Planets.Frozen>
+  <Planets.Earthlike>Planeta terrestre</Planets.Earthlike>
+  <Planets.Forest>Mundo forestal</Planets.Forest>
+  <Planets.Iceball>Mundo cubierto de hielo</Planets.Iceball>
+  <Planets.Jungle>Planeta de la selva</Planets.Jungle>
+  <Planets.Ocean>Mundo océano</Planets.Ocean>
+  <Planets.Custom>(Ajustes personalizados)</Planets.Custom>
+
+  <Planets.OceanType>Nivel del mar</Planets.OceanType>
+  <Planets.OceanTypeTip>Esta configuración determina cuán extensa será la cobertura oceánica en el mundo que generes. Los mundos acuáticos están cubiertos principalmente de agua, con solo unas pocas masas de tierra pequeñas. Los planetas áridos, en el otro extremo, tienen poca o ninguna agua superficial.</Planets.OceanTypeTip>
+
+  <Planets.OceanType_Earthlike>Normal</Planets.OceanType_Earthlike>
+  <Planets.OceanType_Waterworld>Acuoso</Planets.OceanType_Waterworld>
+  <Planets.OceanType_Barren>Arido</Planets.OceanType_Barren>
+
+  <Planets.AxialTilt>Inclinación axial</Planets.AxialTilt>
+  <Planets.AxialTiltTip>Los planetas con una inclinación axial baja tendrán temperaturas muy constantes durante todo el año, incluso cerca de los polos. Los planetas con una alta inclinación axial, por otro lado, tendrán variaciones significativas de temperatura estacional incluso cerca del ecuador, y variaciones extremas más cerca de los polos.</Planets.AxialTiltTip>
+
+  <Planets.AxialTilt_Normal>Normal</Planets.AxialTilt_Normal>
+  <Planets.AxialTilt_Low>Baja</Planets.AxialTilt_Low>
+  <Planets.AxialTilt_High>Alta</Planets.AxialTilt_High>
+
+  <Planets.RainfallTip>Este control deslizante influye en la precipitación global del planeta. Tenga en cuenta que este es un entorno relativo, más que absoluto. Un planeta árido con precipitaciones "altas" seguirá siendo mucho más seco que un mundo acuoso con precipitaciones "bajas".</Planets.RainfallTip>
+
+  <Planets.Random>Planeta aleatorio</Planets.Random>
+
+  <Planets.GeneratingRandom>Generando mundo aleatorio</Planets.GeneratingRandom>
+
+</LanguageData>

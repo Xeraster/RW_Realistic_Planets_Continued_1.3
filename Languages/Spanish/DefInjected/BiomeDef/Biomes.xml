@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RRP_Grassland.label>Pastizal</RRP_Grassland.label>
+  <RRP_Grassland.description>Los pastizales, como su nombre indica, son áreas donde la vegetación está dominada por pastos y arbustos. El suelo es fértil, pero hay poca protección contra los elementos.</RRP_Grassland.description>
+
+  <RRP_Savanna.label>Sabana</RRP_Savanna.label>
+  <RRP_Savanna.description>Las sabanas son ecosistemas mixtos de bosques / pastizales que se encuentran típicamente entre selvas tropicales y desiertos. Aunque las sabanas son más boscosas que las praderas, sus árboles aún están suficientemente espaciados como para que llegue suficiente luz al suelo para soportar una capa ininterrumpida de pastos. A pesar de la abundancia de plantas, el suelo es mayormente seco, y una gran variedad de animales deambulan por el área en busca de comida y agua.</RRP_Savanna.description>
+
+  <RRP_Steppes.label>Estepa</RRP_Steppes.label>
+  <RRP_Steppes.description>Las estepas son regiones de pastizales de gran altitud. Una estepa puede ser semidesértica o cubierta de hierba o arbustos o ambos, dependiendo de la estación y la latitud.</RRP_Steppes.description>
+
+  <RRP_TemperateDesert.label>Desierto templado</RRP_TemperateDesert.label>
+  <RRP_TemperateDesert.description>Los desiertos templados son más fríos pero a menudo incluso más secos que los desiertos subtropicales. La vegetación es escasa y el suelo suele ser más rocoso que arenoso.</RRP_TemperateDesert.description>
+
+  <RRP_Permafrost.label>Permahielo</RRP_Permafrost.label>
+  <RRP_Permafrost.description>El permahielo existe en el límite entre la tundra y las capas de hielo. El suelo está permanentemente congelado, y gran parte está cubierto de hielo, pero el hielo tiene como máximo unos pocos metros, en lugar de kilómetros, de espesor. Hay poca vegetación más allá del matorral y pocos animales.</RRP_Permafrost.description>
+
+  <RRP_Oasis.label>Oasis</RRP_Oasis.label>
+  <RRP_Oasis.description>Los oasis son fragmentos vibrantes y aislados de vida y color. Incluso en los desiertos más duros, después de todo, el agua subterránea ocasionalmente logra llegar a la superficie, y donde lo hace, la vida florece. Las plantas crecen alrededor de pequeños estanques, y los animales se reúnen en busca de agua y sombra.</RRP_Oasis.description>
+
+
+</LanguageData> 
