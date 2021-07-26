@@ -82,7 +82,7 @@ namespace Planets_Code
 			LongEventHandler.QueueLongEvent(() => {
 				Find.GameInitData.ResetWorldRelatedMapInitData();
 
-				Current.Game.World = WorldGenerator.GenerateWorld(this.planetCoverage, this.seedString, this.rainfall, this.temperature, this.population);
+				Current.Game.World = WorldGenerator.GenerateWorld(this.planetCoverage, this.seedString, this.rainfall, this.temperature, this.population, factionCounts);
 				LongEventHandler.ExecuteWhenFinished(() => {
 					if (this.next != null) {
 						Find.WindowStack.Add(this.next);
