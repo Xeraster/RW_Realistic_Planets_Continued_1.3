@@ -1,7 +1,7 @@
 # RW_Realistic_Planets_1.3
 NOTE: I (Windows XP) am not the original author of this mod. The original author is Rainbeau Flambe. He then stopped updating his mod so Saucy Pengiun did so. Then, 1.3 came out, Saucy Pengiun has not been active lately and the community (as well as myself) really really wanted to play the Realistic Planets mod so I took it upon myself to make it happen.
 
-[Here is a link to this mod on the steam workshop:](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Here is a link to this mod on the steam workshop:](https://steamcommunity.com/sharedfiles/filedetails/?id=2557451791)
 
 #Credits from the original about files:
 
