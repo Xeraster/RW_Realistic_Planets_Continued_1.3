@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Realistic_Planets_Continued/Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Realistic_Planets_Continued/Planets_Initializer.cs">
     <Files>
       <File FileName="Realistic_Planets_Continued/Settings.cs" Line="41" Column="5" />
       <File FileName="Realistic_Planets_Continued/Planets_Initializer.cs" Line="1" Column="1" />
       <File FileName="Realistic_Planets_Continued/ModMethodData.cs" Line="1" Column="1" />
       <File FileName="Realistic_Planets_Continued/ModMethodDataExtensions.cs" Line="1" Column="1" />
-      <File FileName="Realistic_Planets_Continued/Planets_CreateWorldParams.cs" Line="200" Column="88" />
+      <File FileName="Realistic_Planets_Continued/Planets_CreateWorldParams.cs" Line="86" Column="49" />
       <File FileName="Realistic_Planets_Continued/Patches/WITab_Planet_Desc.cs" Line="65" Column="44" />
       <File FileName="Realistic_Planets_Continued/Controller.cs" Line="39" Column="5" />
     </Files>
@@ -20,7 +20,7 @@
                 <Node name="SaveOurShip" expanded="True" />
               </Node>
               <Node name="Presets" expanded="True" />
-              <Node name="Controller.cs" selected="True" />
+              <Node name="Planets_Initializer.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +28,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

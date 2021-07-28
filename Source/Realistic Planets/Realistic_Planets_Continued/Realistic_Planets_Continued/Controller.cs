@@ -50,17 +50,19 @@ namespace Planets_Code
 		private void Init()
 		{
 			// Faction Control's button for CreateWorld page.
-			var fcData = new ModMethodData(
+            //no longer actually needed since 1.2 and doesn't work with 1.3 as-is anyway
+            //commentting out instead of deleting just in case it later turns out I'm wrong and this needs to be reimplemented
+			/*var fcData = new ModMethodData(
 				packageId: "factioncontrol.kv.rw",
 				typeName: "FactionControl.Patch_Page_CreateWorldParams_DoWindowContents",
-				methodName: "OpenSettingsWindow");
+                methodName: "OpenSettingsWindow");
 
-			FactionControlSettingsMI = fcData.GetMethodIfLoaded();
+            FactionControlSettingsMI = fcData.GetMethodIfLoaded();
 
 			if (Settings.usingFactionControl && FactionControlSettingsMI == null)
 			{
 				throw new MissingMethodException("Realistic Planets was unable to find necessary Faction Control method info.");
-			}
+			}*/
 		}
 	}
 }
