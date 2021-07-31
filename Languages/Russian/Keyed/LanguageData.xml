@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- Main -->
+	
+	<Planets.ModName>Realistic Planets - Фанатское обновление</Planets.ModName>
+	
+	<!-- Settings -->
+	
+	<Planets.SettingsDisabled>Поскольку вы также используете Управление фракциями, настройки расположения фракций из данного мода были отключены для лучшей совместимости.</Planets.SettingsDisabled>
+	
+	<Planets.CheckTemp>Учитывать температуру при размещении фракций</Planets.CheckTemp>
+	<Planets.CheckTempTip>Если эта опция включена, поселений фракций будут чаще находиться в регионах, которые раса фракции считает самыми комфортными (или, по крайней мере, наименее некомфортными). Если она отключена, поселения будут расположены случайным образом, как в обычной игре.</Planets.CheckTempTip>
+
+	<Planets.FactionGrouping>Группирование фракций</Planets.FactionGrouping>
+	<Planets.FactionGroupingNone>Нет. (Как в обычной игре.) Поселения группы фракций будут случайным образом рассеяны по миру.</Planets.FactionGroupingNone>
+	<Planets.FactionGroupingLoose>Далеко. Поселения группы фракций будут чаще находиться в одном регионе карты, но территории, принадлежащие разным группам, все равно будут сильно пересекаться.</Planets.FactionGroupingLoose>
+	<Planets.FactionGroupingTight>Близко. Поселения, принадлежащие конкретной группе фракций будут находиться близко друг к другу, и, за исключением пиратских банд, почти не будут пересекаться друг с другом. Это создаст ощущение настоящих наций с нечеткими границами, разделившими карту мира.</Planets.FactionGroupingTight>
+	<Planets.FactionGroupingVeryTight>Очень близко. За исключением пиратских банд, базы каждой группы фракций будут находиться близко друг к другу. Территории почти не будут пересекаться, к тому же, между ними могут находиться обширные ничейные земли.</Planets.FactionGroupingVeryTight>
+
+	<Planets.ShowStoneTypes>Показывать типы пород на глобальной карте</Planets.ShowStoneTypes>
+	<Planets.ShowStoneTypesTip>Переключает отображение типов пород при просмотре ячейки на глобальной карте.</Planets.ShowStoneTypesTip>
+
+	<Planets.ShowGrowingPeriod>Показывать период роста на глобальной карте</Planets.ShowGrowingPeriod>
+	<Planets.ShowGrowingPeriodTip>Переключает отображение периода роста при просмотре ячейки на глобальной карте.</Planets.ShowGrowingPeriodTip>
+	
+	<Planets.ShowDiseaseFrequency>Показывать среднюю частоту заболеваний на глобальной карте</Planets.ShowDiseaseFrequency>
+	<Planets.ShowDiseaseFrequencyTip>Переключает отображение средней частоты заболеваний при просмотре ячейки на глобальной карте.</Planets.ShowDiseaseFrequencyTip>
+
+	<Planets.ResetToDefault>Установить настройки по умолчанию</Planets.ResetToDefault>
+
+	<!-- Generation -->
+
+	<Planets.MessageLowPlanetCoverageWarning>Внимание: При некоторых настройках игре может не хватить места для генерации всех поселений фракций.</Planets.MessageLowPlanetCoverageWarning>
+	
+	<Planets.Random>Случайная планета</Planets.Random>
+	<Planets.GeneratingRandom>Генерация случайного мира</Planets.GeneratingRandom>
+
+	<!-- World presets -->
+
+	<Planets.WorldPresets>Тип мира</Planets.WorldPresets>
+	<Planets.WorldPresetsTip>Шаблоны в этом списке помогут вам быстро настроить ползунки ниже для создания планет определенного типа. Шаблоны не идеальны, и планеты иногда оказываются покрыты одним-единственным биомом, но при их использовании во можете получить планеты, в целом соответствующие названию шаблона.</Planets.WorldPresetsTip>
+	
+	<Planets.Vanilla>RimWorld по умолчанию</Planets.Vanilla>
+	<Planets.Desert>Пустынная планета</Planets.Desert>
+	<Planets.Frozen>Сухой арктический мир</Planets.Frozen>
+	<Planets.Earthlike>Планета земного типа</Planets.Earthlike>
+	<Planets.Forest>Лесистый мир</Planets.Forest>
+	<Planets.Iceball>Покрытый льдом мир</Planets.Iceball>
+	<Planets.Jungle>Планета тропических лесов</Planets.Jungle>
+	<Planets.Ocean>Океанический мир</Planets.Ocean>
+	<Planets.Custom>(Свои настройки)</Planets.Custom>
+	
+	<!-- Sea level -->
+	
+	<Planets.OceanType>Уровень моря</Planets.OceanType>
+	<Planets.OceanTypeTip>Эта настройка определяет то, насколько сильно сгенерированный вами мир будет покрыт водой. Миры с высоким уровнем моря, в основном, покрыты водой, лишь с небольшими участками суши. Планеты с низким уровнем моря, с другой стороны, не имеют воды на поверхности или имеют очень мало.</Planets.OceanTypeTip>
+
+	<Planets.SeaLevel_VeryHigh>Очень высокий</Planets.SeaLevel_VeryHigh>
+	<Planets.SeaLevel_High>Высокий</Planets.SeaLevel_High>
+	<Planets.SeaLevel_SlightlyHigh>Повышенный</Planets.SeaLevel_SlightlyHigh>
+	<Planets.SeaLevel_Normal>Обычный</Planets.SeaLevel_Normal>
+	<Planets.SeaLevel_SlightlyLow>Пониженный</Planets.SeaLevel_SlightlyLow>
+	<Planets.SeaLevel_Low>Низкий</Planets.SeaLevel_Low>
+	<Planets.SeaLevel_VeryLow>Очень низкий</Planets.SeaLevel_VeryLow>
+	
+	<!-- Rainfall -->
+	
+	<Planets.RainfallTip>Эта настройка определяет общее количество осадков на планете. Учтите, что это относительная, а не абсолютная настройка. Сухая планета с высоким уровнем осадков будет куда суше чем океаническая с низким.</Planets.RainfallTip>
+	
+	<Planets.Rainfall_VeryLow>Очень низкий</Planets.Rainfall_VeryLow>
+	<Planets.Rainfall_Low>Низкий</Planets.Rainfall_Low>
+	<Planets.Rainfall_SlightlyLow>Пониженный</Planets.Rainfall_SlightlyLow>
+	<Planets.Rainfall_Normal>Обычный</Planets.Rainfall_Normal>
+	<Planets.Rainfall_SlightlyHigh>Повышенный</Planets.Rainfall_SlightlyHigh>
+	<Planets.Rainfall_High>Высокий</Planets.Rainfall_High>
+	<Planets.Rainfall_VeryHigh>Очень высокий</Planets.Rainfall_VeryHigh>
+	
+	<!-- Temperature -->
+	
+	<Planets.Temperature_VeryLow>Очень низкая</Planets.Temperature_VeryLow>
+	<Planets.Temperature_Low>Низкая</Planets.Temperature_Low>
+	<Planets.Temperature_SlightlyLow>Пониженная</Planets.Temperature_SlightlyLow>
+	<Planets.Temperature_Normal>Обычная</Planets.Temperature_Normal>
+	<Planets.Temperature_SlightlyHigh>Повышенная</Planets.Temperature_SlightlyHigh>
+	<Planets.Temperature_High>Высокая</Planets.Temperature_High>
+	<Planets.Temperature_VeryHigh>Очень высокая</Planets.Temperature_VeryHigh>
+	
+	<!-- Axial tilt -->
+
+	<Planets.AxialTilt>Наклон оси</Planets.AxialTilt>
+	<Planets.AxialTiltTip>Планеты с низким наклоном оси имеют постоянные температуры на протяжении года, даже у полюсов. Планеты с высоким наклоном оси, с другой стороны, обладают более выраженными временами года даже у экватора, и огромными перепадами температуры у полюсов.</Planets.AxialTiltTip>
+	
+	<Planets.AxialTilt_VeryLow>Очень низкий</Planets.AxialTilt_VeryLow>
+	<Planets.AxialTilt_Low>Низкий</Planets.AxialTilt_Low>
+	<Planets.AxialTilt_Normal>Обычный</Planets.AxialTilt_Normal>
+	<Planets.AxialTilt_High>Высокий</Planets.AxialTilt_High>
+	<Planets.AxialTilt_VeryHigh>Очень высокий</Planets.AxialTilt_VeryHigh>
+	
+	<!-- Population -->
+	
+	<Planets.Population_VeryLow>Очень малочисленное</Planets.Population_VeryLow>
+	<Planets.Population_Low>Малочисленное</Planets.Population_Low>
+	<Planets.Population_SlightlyLow>Пониженное</Planets.Population_SlightlyLow>
+	<Planets.Population_Normal>Обычное</Planets.Population_Normal>
+	<Planets.Population_SlightlyHigh>Повышенное</Planets.Population_SlightlyHigh>
+	<Planets.Population_High>Многочисленное</Planets.Population_High>
+	<Planets.Population_VeryHigh>Очень многочисленное</Planets.Population_VeryHigh>
+	
+	<!-- For compatibility with 1.0 -->
+	<!-- Please do not remove -->
+	
+	<Planets.OceanType_Earthlike>Земного типа</Planets.OceanType_Earthlike>
+	<Planets.OceanType_Waterworld>Водная</Planets.OceanType_Waterworld>
+	<Planets.OceanType_Barren>Сухая</Planets.OceanType_Barren>
+
+</LanguageData>
