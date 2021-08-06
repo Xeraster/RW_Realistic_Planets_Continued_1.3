@@ -23,12 +23,15 @@ namespace Planets_Code
 
 		public static MethodInfo GetMethod(this ModMethodData modMethodData)
 		{
-			if (modMethodData == null)
-				throw new ArgumentNullException(nameof(modMethodData));
+            if (modMethodData == null)
+            {
+                Log.Message("Mod method data itself is the thing that's null, throwing exception");
+                throw new ArgumentNullException(nameof(modMethodData));
+            }
 
 			var mod = LoadedModManager.RunningMods.FirstOrDefault(x => x.PackageIdPlayerFacing == modMethodData.PackageId);
 
-			if (mod == null)
+            if (mod == null)
 			{
 				throw new ArgumentException($"Tried to get method in mod that is not loaded. Target packageId={modMethodData.PackageId}.");
 			}
@@ -38,12 +41,12 @@ namespace Planets_Code
 			foreach (var assembly in mod.assemblies.loadedAssemblies)
 			{
 				var dialog = assembly.GetType(modMethodData.TypeName);
-
-				if (dialog != null)
+                if (dialog != null)
 				{
-					return dialog.GetMethod(modMethodData.MethodName, BindingFlags.Public | BindingFlags.Static);
+                    //modified to include non-public methods in search to ensure compatibility with harmony postfix methods
+                    return dialog.GetMethod(modMethodData.MethodName, BindingFlags.Public | BindingFlags.Static | BindingFlags.NonPublic);
 				}
-			}
+            }
 
 			Log.Warning($"Realistic Planets - Fan Update was unable to find {FullMethodName(modMethodData)} in mod with packageId={modMethodData.PackageId}. Please ensure that both mods have been updated to their latest versions.");
 

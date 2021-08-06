@@ -189,15 +189,23 @@ namespace Planets_Code
             // BOTTOM BUTTONS
             //
             // Add Faction Control button
-            /*if (Controller.FactionControlSettingsMI != null)
+            if (Controller.FactionControlSettingsMI != null)
 			{
-				Verse.Text.Font = GameFont.Small;
-				if (Widgets.ButtonText(new Rect(0, rect.yMax - 78f, 150, 32), "RFC.FactionControlName".Translate()))
-				{
-					Controller.FactionControlSettingsMI.Invoke(null, null);
-				}
-			}
-			base.DoBottomButtons(rect, "WorldGenerate".Translate(), "Planets.Random".Translate(), new Action(this.Randomize), true, true);*/
+                //faction control Postfix needs a rect parameter
+                Verse.Text.Font = GameFont.Small;
+                object[] fcparams = new object[1];
+                fcparams[0] = rect;
+                Controller.FactionControlSettingsMI.Invoke(null, fcparams);
+            }
+
+            //add Configurable Maps button
+            if (Controller.ConfigurableMapsSettingsMI != null)
+            {
+                object[] cmparams = new object[1];
+                cmparams[0] = rect;
+                Controller.ConfigurableMapsSettingsMI.Invoke(null, cmparams);
+            }
+            //base.DoBottomButtons(rect, "WorldGenerate".Translate(), "Planets.Random".Translate(), new Action(this.Randomize), true, true);
 
             Rect rect8 = new Rect(rect.x + rect.width / 2f, rect.y, rect.width, rect.height);
             IEnumerable<FactionDef> configurableFactions = FactionGenerator.ConfigurableFactions;
