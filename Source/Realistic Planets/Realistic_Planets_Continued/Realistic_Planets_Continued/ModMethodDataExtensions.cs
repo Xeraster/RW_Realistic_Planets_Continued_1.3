@@ -48,7 +48,7 @@ namespace Planets_Code
 				}
             }
 
-			Log.Warning($"Realistic Planets - Fan Update was unable to find {FullMethodName(modMethodData)} in mod with packageId={modMethodData.PackageId}. Please ensure that both mods have been updated to their latest versions.");
+			Log.Warning($"Realistic Planets Continued was unable to find {FullMethodName(modMethodData)} in mod with packageId={modMethodData.PackageId}. Please ensure that both mods have been updated to their latest versions.");
 
 			return null;
 		}

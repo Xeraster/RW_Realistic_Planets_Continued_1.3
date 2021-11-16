@@ -223,7 +223,8 @@ namespace Planets_Code
                 ResetFactionCounts();
                 SoundDefOf.Tick_Tiny.PlayOneShotOnCamera();
             }
-            DoBottomButtons(rect, "WorldGenerate".Translate(), "Reset".Translate(), Reset);
+            //DoBottomButtons(rect, "WorldGenerate".Translate(), "Reset".Translate(), Reset);
+            DoBottomButtons(rect, "WorldGenerate".Translate(), "Planets.Random".Translate(), Randomize);
 
 
         }
@@ -347,7 +348,7 @@ namespace Planets_Code
 
 		public void Reset()
 		{
-			this.seedString = GenText.RandomSeedString();
+            this.seedString = GenText.RandomSeedString();
 			this.planetCoverage = 0.3f;
 			this.CurrentWorldPreset = "Planets.Vanilla";
 			Planets_GameComponent.axialTilt = AxialTilt.Normal;

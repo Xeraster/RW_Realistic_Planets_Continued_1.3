@@ -62,7 +62,8 @@ namespace Planets_Code
 
 			if (Settings.usingFactionControl && FactionControlSettingsMI == null)
 			{
-				throw new MissingMethodException("Realistic Planets was unable to find necessary Faction Control method info.");
+                Log.Error("Realistic Planets was unable to find necessary Faction Control method info.");
+				//throw new MissingMethodException("Realistic Planets was unable to find necessary Faction Control method info.");
             }
 
             //Configurable Maps button for create world page
@@ -74,6 +75,15 @@ namespace Planets_Code
                 //1.3 needs to use Postfix
                 methodName: "Postfix");
             ConfigurableMapsSettingsMI = cmData.GetMethodIfLoaded();
+
+            if (ConfigurableMapsSettingsMI == null)
+            {
+                Log.Error("couldn't find Comfigurable Maps");
+            }
+            else
+            {
+                Log.Message("configurable maps loaded");
+            }
 
 		}
 	}

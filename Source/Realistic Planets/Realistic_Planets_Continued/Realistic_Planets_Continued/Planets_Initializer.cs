@@ -138,6 +138,7 @@ namespace Planets_Code
 			}
 			if (ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("Faction Control")))
 			{
+                Log.Message("using faction control");
 				Controller.Settings.usingFactionControl = true;
 			}
 			if (ModsConfig.ActiveModsInLoadOrder.Any(mod => mod.Name.Contains("Nature's Pretty Sweet")))
