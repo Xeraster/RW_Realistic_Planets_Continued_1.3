@@ -1,26 +1,25 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Realistic_Planets_Continued/Planets_CreateWorldParams.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Realistic_Planets_Continued/Controller.cs">
     <Files>
       <File FileName="Realistic_Planets_Continued/Settings.cs" Line="15" Column="15" />
       <File FileName="Realistic_Planets_Continued/Planets_Initializer.cs" Line="141" Column="54" />
       <File FileName="Realistic_Planets_Continued/ModMethodData.cs" Line="19" Column="1" />
       <File FileName="Realistic_Planets_Continued/ModMethodDataExtensions.cs" Line="21" Column="23" />
-      <File FileName="Realistic_Planets_Continued/Planets_CreateWorldParams.cs" Line="196" Column="6" />
-      <File FileName="Realistic_Planets_Continued/Controller.cs" Line="40" Column="5" />
-      <File FileName="Realistic_Planets_Continued/Patches/WITab_Planet_Desc.cs" Line="65" Column="44" />
+      <File FileName="Realistic_Planets_Continued/Planets_CreateWorldParams.cs" Line="183" Column="18" />
+      <File FileName="Realistic_Planets_Continued/Controller.cs" Line="85" Column="44" />
+      <File FileName="Realistic_Planets_Continued/Patches/WITab_Planet_Desc.cs" Line="58" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Realistic_Planets_Continued" expanded="True">
-            <Node name="Realistic_Planets_Continued" expanded="True">
+            <Node name="Realistic_Planets_Continued" expanded="True" selected="True">
               <Node name="References" expanded="True" />
               <Node name="Patches" expanded="True">
                 <Node name="Factions" expanded="True" />
                 <Node name="SaveOurShip" expanded="True" />
               </Node>
               <Node name="Presets" expanded="True" />
-              <Node name="Planets_CreateWorldParams.cs" selected="True" />
             </Node>
           </Node>
         </State>

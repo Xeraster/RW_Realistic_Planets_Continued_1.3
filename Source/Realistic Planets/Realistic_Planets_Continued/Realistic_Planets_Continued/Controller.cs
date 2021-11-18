@@ -78,11 +78,11 @@ namespace Planets_Code
 
             if (ConfigurableMapsSettingsMI == null)
             {
-                Log.Error("couldn't find Comfigurable Maps");
+                Log.Message("couldn't find Configurable Maps");
             }
             else
             {
-                Log.Message("configurable maps loaded");
+                Log.Message("Configurable Maps loaded");
             }
 
 		}
