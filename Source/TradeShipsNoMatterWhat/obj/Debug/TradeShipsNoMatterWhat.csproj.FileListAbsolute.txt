@@ -1,0 +1,5 @@
+/home/scott/Projects/TradeShipsNoMatterWhat/TradeShipsNoMatterWhat/bin/Debug/TradeShipsNoMatterWhat.dll
+/home/scott/Projects/TradeShipsNoMatterWhat/TradeShipsNoMatterWhat/bin/Debug/TradeShipsNoMatterWhat.pdb
+/home/scott/Projects/TradeShipsNoMatterWhat/TradeShipsNoMatterWhat/obj/Debug/TradeShipsNoMatterWhat.dll
+/home/scott/Projects/TradeShipsNoMatterWhat/TradeShipsNoMatterWhat/obj/Debug/TradeShipsNoMatterWhat.pdb
+/home/scott/Projects/TradeShipsNoMatterWhat/TradeShipsNoMatterWhat/obj/Debug/TradeShipsNoMatterWhat.csprojAssemblyReference.cache
