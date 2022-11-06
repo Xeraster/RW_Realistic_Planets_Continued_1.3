@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Realistic_Planets_Continued/Planets_CreateWorldParams.cs">
+    <Files>
+      <File FileName="Realistic_Planets_Continued/Patches/WITab_Planet_Desc.cs" Line="58" Column="52" />
+      <File FileName="Realistic_Planets_Continued/ModMethodData.cs" Line="5" Column="2" />
+      <File FileName="Realistic_Planets_Continued/ModMethodDataExtensions.cs" Line="5" Column="30" />
+      <File FileName="Realistic_Planets_Continued/Planets_Initializer.cs" Line="141" Column="54" />
+      <File FileName="Realistic_Planets_Continued/Controller.cs" Line="85" Column="2" />
+      <File FileName="Realistic_Planets_Continued/Patches/Factions/FactionGenerator_NewGeneratedFaction.cs" Line="62" Column="21" />
+      <File FileName="Realistic_Planets_Continued/Planets_CreateWorldParams.cs" Line="243" Column="78" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Realistic_Planets_Continued" expanded="True">
+            <Node name="Realistic_Planets_Continued" expanded="True" selected="True">
+              <Node name="References" expanded="True" />
+              <Node name="Patches" expanded="True">
+                <Node name="Factions" expanded="True" />
+                <Node name="SaveOurShip" expanded="True" />
+              </Node>
+              <Node name="Presets" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
