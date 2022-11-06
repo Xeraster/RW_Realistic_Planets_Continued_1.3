@@ -28,6 +28,7 @@
 	<Planets.ShowDiseaseFrequencyTip>Переключает отображение средней частоты заболеваний при просмотре ячейки на глобальной карте.</Planets.ShowDiseaseFrequencyTip>
 
 	<Planets.ResetToDefault>Установить настройки по умолчанию</Planets.ResetToDefault>
+	<Planets.FactionResetDefault>Сбросить фракции</Planets.FactionResetDefault>
 
 	<!-- Generation -->
 

@@ -239,8 +239,8 @@ namespace Planets_Code
                 SoundDefOf.Tick_Tiny.PlayOneShotOnCamera();
             }*/
 
-            //draw a reset factions button
-            if (Widgets.ButtonText(new Rect(rect.x + rect.width / 2f, rect.y + rect.height, (rect.width / 2f), 32), "Reset.Factions.Button".Translate()))
+            //draw a reset factions button using Widget.ButtonText. I am putting the button right above the faction list. Seems like a good spot that won't get messed up by differing dpi settings, resolution or aspect ratio
+            if (Widgets.ButtonText(new Rect(rect8.x, rect8.y - 2, rect8.width / 4f, 32), "Planets.FactionResetDefault".Translate()))
             {
                 ResetFactionCounts();
                 SoundDefOf.Tick_Tiny.PlayOneShotOnCamera();

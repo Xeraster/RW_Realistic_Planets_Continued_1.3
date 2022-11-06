@@ -48,5 +48,6 @@
   <Planets.Random>Planeta aleatorio</Planets.Random>
 
   <Planets.GeneratingRandom>Generando mundo aleatorio</Planets.GeneratingRandom>
+  <Planets.FactionResetDefault>Restaurar facciones predeterminadas</Planets.FactionResetDefault>
 
 </LanguageData>
